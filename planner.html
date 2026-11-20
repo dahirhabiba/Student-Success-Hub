@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Study Planner</h1>
+    <p>Organise your academic activities.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="planner.html">Study Planner</a>
+    <a href="units.html">Zetech Units</a>
+    <a href="skills.html">Skills Training</a>
+    <a href="career.html">Career Development</a>
+</nav>
+
+<main>
+    <section class="content">
+        <h2>My Study Tasks</h2>
+        <p>Add your assignments, revision activities and deadlines.</p>
+
+        <form id="taskForm">
+            <label for="taskInput">Task name</label>
+            <input type="text" id="taskInput"
+                   placeholder="Enter a study task" required>
+
+            <label for="taskDate">Due date</label>
+            <input type="date" id="taskDate">
+
+            <button type="submit">Add Task</button>
+        </form>
+
+        <h3>My Tasks</h3>
+        <ul id="taskList"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Student Success Hub</p>
+</footer>
+
+</body>
+</html>
